@@ -2,10 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+
     <link href="https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Roboto:wght@400;500&display=swap"
           rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/font.css">
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Title!!!</title>
 </head>
@@ -18,7 +21,7 @@
                 <div class="header-contacts">
                     <a class="header-phone" href="tel:70963092145">+7 (096) 309 21 45</a>
                     <a class="header-email" href="#">layout@gmail.com</a>
-                    <a class="btn-header" href="#">Бесплатная консультация</a>
+                    <a data-fancybox data-src="#modal" href="javascript:" class="btn-header" >Бесплатная консультация</a>
                 </div>
             </div>
         </div>
@@ -46,5 +49,13 @@
 
 </header>
 
+
+<div id="modal">
+    <h2>Hello</h2>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<script src="js/jquery.fancybox.min.js"></script>
+<script src="js/app.js"></script>
 </body>
 </html>
