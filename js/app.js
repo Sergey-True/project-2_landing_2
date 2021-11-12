@@ -2,7 +2,7 @@
 import "fancyapps/ui/dist/fancybox.css";*/
 $(function(){
 
-
+$('.slider-inner').slick();
 
 
 
