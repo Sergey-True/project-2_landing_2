@@ -1,4 +1,3 @@
-
 /*For everything*/
 
 * {
@@ -24,7 +23,7 @@ li {
     padding: 0 15px;
 }
 
-body{
+body {
     font-family: 'PT Serif', serif;
     /*font-family: 'Roboto', sans-serif;*/
     font-size: 14px;
@@ -39,6 +38,7 @@ body{
 .header {
     font-family: 'Roboto', sans-serif;
 }
+
 .header_top {
     background-color: #303030;
 
@@ -70,6 +70,7 @@ body{
     display: block;
 
 }
+
 .header-phone,
 .header-email {
     color: #cbcacb;
@@ -95,6 +96,7 @@ body{
 .header-email {
     padding-left: 25px;
 }
+
 .header-email:before {
     content: "\f003";
     font-family: 'icomoon', sans-serif;
@@ -107,7 +109,8 @@ body{
     padding: 34px 0 23px;
 
 }
-.menu li{
+
+.menu li {
     display: inline-block;
 }
 
@@ -116,13 +119,13 @@ body{
     justify-content: space-between;
 }
 
-.menu a{
+.menu a {
     color: #323232;
     font-size: 16px;
     line-height: 36px;
     border: 1px solid transparent;
     padding: 0 16px;
-    transition: all .3s  linear;
+    transition: all .3s linear;
 }
 
 .menu a:hover {
@@ -191,13 +194,65 @@ body{
     position: relative;
     z-index: 2;
 }
+
 /*Default-button<---*/
 
 .default-btn:after {
     content: "\f105";
     font-family: 'icomoon', sans-serif;
     position: absolute;
-    top:50%;
+    top: 50%;
     transform: translateY(-50%);
     right: -12px;
 }
+
+.slider-inner{
+    position: relative;
+}
+
+.slick-btn{
+    position: absolute;
+    top: 70%;
+    z-index: 3;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #ffffff;
+
+    cursor: pointer;
+    outline: none;
+    background-color: #ffc222;
+
+}
+.slick-btn.slick-disabled {
+    background-color: transparent;
+    cursor: default;
+
+}
+.slick-btn:before{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'icomoon', sans-serif;
+    color: #ffffff;
+}
+.slick-disabled {
+
+}
+
+.slick-next:before {
+    content: "\f105";
+}
+
+.slick-next {
+    right: 0;
+
+}
+
+.slick-prev:before {
+    content: "\f104";
+}
+.slick-prev {
+    left: 0;
+}
+
