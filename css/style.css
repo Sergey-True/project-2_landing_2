@@ -206,11 +206,11 @@ body {
     right: -12px;
 }
 
-.slider-inner{
+.slider-inner {
     position: relative;
 }
 
-.slick-btn{
+.slick-btn {
     position: absolute;
     top: 70%;
     z-index: 3;
@@ -223,12 +223,14 @@ body {
     background-color: #ffc222;
 
 }
+
 .slick-btn.slick-disabled {
     background-color: transparent;
     cursor: default;
 
 }
-.slick-btn:before{
+
+.slick-btn:before {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -236,6 +238,7 @@ body {
     font-family: 'icomoon', sans-serif;
     color: #ffffff;
 }
+
 .slick-disabled {
 
 }
@@ -252,7 +255,60 @@ body {
 .slick-prev:before {
     content: "\f104";
 }
+
 .slick-prev {
     left: 0;
 }
 
+/*About*/
+
+.about {
+    padding: 50px 0 30px;
+}
+
+.about-top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-top-box {
+    max-width: 520px;
+    padding-left: 140px;
+    position: relative;
+    margin-bottom: 60px;
+
+}
+
+.about-top-box:before {
+    content: "";
+    width: 100px;
+    height: 2px;
+    background-color: #ffc222;
+    position: absolute;
+    left: 0;
+    top: 18px;
+
+
+}
+
+.about-title {
+    font-size: 24px;
+    font-weight: 500;
+    font-family: 'Roboto', sans-serif;
+    color: #212020;
+    margin-bottom: 10px;
+
+}
+
+.about-text {
+    letter-spacing: .1px;
+}
+
+.about-top-btn a{
+    color: #373636;
+    line-height: 24px;
+    letter-spacing: 0.25px;
+    font-size: 14px;
+    padding: 5px 38px;
+    border: 3px solid #e6e6e6;
+}
