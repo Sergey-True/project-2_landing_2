@@ -260,18 +260,18 @@ body {
     left: 0;
 }
 
-/*About*/
+/*services*/
 
-.about {
+.services {
     padding: 50px 0 30px;
 }
 
-.about-top {
+.services-top {
     display: flex;
     justify-content: space-between;
 }
 
-.about-top-box {
+.services-top-box {
     max-width: 520px;
     padding-left: 140px;
     position: relative;
@@ -279,7 +279,7 @@ body {
 
 }
 
-.about-top-box:before {
+.services-top-box:before {
     content: "";
     width: 100px;
     height: 2px;
@@ -291,7 +291,7 @@ body {
 
 }
 
-.about-title {
+.services-title {
     font-size: 24px;
     font-weight: 500;
     font-family: 'Roboto', sans-serif;
@@ -300,15 +300,102 @@ body {
 
 }
 
-.about-text {
+.services-text {
     letter-spacing: .1px;
 }
 
-.about-top-btn a{
+.services-top-btn a{
     color: #373636;
     line-height: 24px;
     letter-spacing: 0.25px;
     font-size: 14px;
     padding: 5px 38px;
     border: 3px solid #e6e6e6;
+}
+.services-items {
+    display: flex;
+    justify-content: space-between}
+
+.services-item {
+    max-width: 360px;
+    padding: 30px 0 80px;
+    text-align: center;
+    position: relative;
+    min-height: 375px;
+    background-color: #f9f9f9;
+    box-shadow: 0 7px 24.3px 2.7px rgba(91, 89, 89, 0.14);}
+
+.services-item-title {
+    color: #212020;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Roboto', sans-serif;
+    padding: 24px 0;
+}
+
+.services-item-text {
+    letter-spacing: 0.1px;
+    padding: 0 30px 30px;
+}
+
+.services-item-btn {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+    right: 0;
+}
+
+.services-item-btn .default-btn {
+    color: #373636;
+}
+
+.services-item-btn .default-btn:after {
+    color: #ffffff;
+}
+
+.services-item-link {
+    color: #050505;
+    font-family: 'Roboto', sans-serif;
+
+    border-bottom: 1px solid #050505;
+    margin-right: 60px;
+}
+
+/*about*/
+
+.about {
+    background-image: url(../img/about.jpg);
+    min-height: 300px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 25px 0 45px;
+}
+
+.about-inner {
+    max-width: 545px;
+}
+
+.about-title {
+    font-size: 24px;
+    line-height: 24px;
+    font-family:'Roboto', sans-serif;
+    font-weight: 500;
+    padding: 10px 0px 25px;
+    color: #fff;
+}
+
+.about-text {
+    line-height: 24px;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    color: #d3d2d2;
+    font-family:'Roboto', sans-serif;
+    margin-bottom: 30px;
+
+}
+
+.about-btn.default-btn {
+    color: #000;
 }
