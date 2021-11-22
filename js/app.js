@@ -8,6 +8,6 @@ $('.slider-inner').slick({
     infinite: false,
 });
 
-
+$('select').styler();
 
 });
