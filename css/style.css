@@ -389,7 +389,7 @@ body {
     line-height: 24px;
     font-family:'Roboto', sans-serif;
     font-weight: 500;
-    padding: 10px 0px 25px;
+    padding: 10px 0 25px;
     color: #fff;
 }
 
@@ -460,13 +460,13 @@ body {
     margin-bottom: 8px;
     height: 40px;
     border: 1px solid #e6e6e6;
-    padding: 0px 10px;
+    padding: 0 10px;
 }
 
 .form-box-inner select {
     height: 40px;
     border: 1px solid #e6e6e6;
-    padding: 0px 17px;
+    padding: 0 17px;
 }
 .form-box-inner .jq-selectbox.jqselect {
     display: block;
@@ -477,7 +477,7 @@ body {
 .form-box-inner .jq-selectbox__select {
     height: 40px;
     border: 1px solid #e6e6e6;
-    padding: 0px 17px;
+    padding: 0 17px;
 
 }
 .form-box-inner .jq-selectbox__trigger-arrow:before {
@@ -542,3 +542,59 @@ body {
     float: right;
 }
 
+/*advantages*/
+
+.advantages {
+    background: url("../img/advantages.jpg") no-repeat center;
+    background-size: cover;
+    min-height: 285px;
+    padding: 55px 0 40px;
+}
+
+.advantages-inner {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.advantages-item {
+    max-width: 360px;
+    padding: 0 20px;
+}
+
+.advantages-title {
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+    line-height: 24px;
+    font-weight: 500;
+    padding: 60px 0 15px;
+    position: relative;
+
+}
+.advantages-title:before {
+    position: absolute;
+    content: "";
+    width: 40px;
+    height: 40px;
+    border: 2px solid #ffc222;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.advantages-title:after {
+    font-family: 'icomoon', sans-serif;
+    content: "\f00c";
+    font-size: 14px;
+    position: absolute;
+    top: 9px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.advantages-text {
+    line-height: 24px;
+    color: #d3d2d2;
+    letter-spacing: 0.1px;
+}
