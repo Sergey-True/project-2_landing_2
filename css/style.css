@@ -741,3 +741,107 @@ body {
     color: #dadada;
     border-color: #dadada;
 }
+
+/*footer*/
+.footer_content {
+    background-color: #595959;
+    padding-top: 20px;
+}
+
+.footer-info {
+    max-width: 360px;
+}
+
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-map {
+    padding: 10px 0px 50px;
+}
+
+/*.footer-map iframe{
+
+    height: 250px;
+    max-width: 630px;
+    width: 100%;
+}*/
+
+.footer-inner .btn-header {
+    display: inline-block;
+    float: none;
+}
+
+.footer-title {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    line-height: 36px;
+    letter-spacing: .5px;
+    font-weight: 500;
+}
+
+.footer-text {
+    color: #d3d2d2;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.footer-list li {
+    margin-top: 10px;
+
+}
+
+.footer-list a {
+    font-size: 19px;
+    line-height: 24px;
+    letter-spacing: .25px;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+    padding-left: 33px;
+    position: relative;
+
+}
+
+.footer-list a:before
+ {
+    content: "\f003";
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+    font-family: "icomoon", sans-serif;
+    left: 3px;
+}
+
+.footer-list .footer-phone:before {
+    content: "\f095";
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+    font-family: "icomoon", sans-serif;
+    left: 3px;
+}
+
+.footer-list .footer-location:before {
+    content: "\f041";
+    position: absolute;
+    left: 0;
+    color: #ffc222;
+    font-family: "icomoon", sans-serif;
+    left: 3px;
+}
+
+
+.footer_copy {
+    background-color: #303030;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    max-height: 40px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
