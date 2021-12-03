@@ -10,4 +10,8 @@ $('.slider-inner, .news-slider-inner').slick({
 
 $('select').styler();
 
+$ ('.header-btn-menu').on('click', function (){
+    $('.menu ul').slideToggle();
+});
+
 });

@@ -136,6 +136,11 @@ body {
     padding-left: 10px;
 }
 
+.header-btn-menu {
+    display: none;
+    font-size: 28px;
+    cursor: pointer;
+}
 /*Pop-up*/
 #modal {
     display: none;
