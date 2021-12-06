@@ -763,15 +763,17 @@ body {
 }
 
 .footer-map {
-    padding: 10px 0px 50px;
+    padding: 10px 0 50px;
+    max-width: 630px;
+    width: 100%;
 }
 
-/*.footer-map iframe{
+.footer-map iframe{
 
     height: 250px;
     max-width: 630px;
     width: 100%;
-}*/
+}
 
 .footer-inner .btn-header {
     display: inline-block;
@@ -816,7 +818,7 @@ body {
  {
     content: "\f003";
     position: absolute;
-    left: 0;
+
     color: #ffc222;
     font-family: "icomoon", sans-serif;
     left: 3px;
@@ -825,7 +827,7 @@ body {
 .footer-list .footer-phone:before {
     content: "\f095";
     position: absolute;
-    left: 0;
+
     color: #ffc222;
     font-family: "icomoon", sans-serif;
     left: 3px;
@@ -834,7 +836,7 @@ body {
 .footer-list .footer-location:before {
     content: "\f041";
     position: absolute;
-    left: 0;
+
     color: #ffc222;
     font-family: "icomoon", sans-serif;
     left: 3px;
